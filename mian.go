@@ -23,7 +23,7 @@ func main() {
 		return
 	}
 	dialog.Message("SC EAC PASSER form StarCitizen Chinese Community,it will disable EAC in order to load SC Modding Tools,Click 'ok' to start the game.\n" +
-		"Open source at https://github.com/xkeyC/sc_eac_passer_light")
+		"Open source at https://github.com/xkeyC/sc_eac_passer_light").Title("Welcome!").Info()
 	startGame()
 }
 
