@@ -36,7 +36,6 @@ func startGame() {
 
 	_, gameExecErr := exec.Command("Bin64/StarCitizen.exe", newArgs...).Output()
 	if gameExecErr != nil {
-		// 暂且通过时长来区分游戏异常状态
 		if time.Since(start) > time.Minute {
 			dialog.Message("Game launch fail").Error()
 		} else {
