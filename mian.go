@@ -43,6 +43,7 @@ func startGame() {
 			dialog.Message("Game crashes").Error()
 		}
 		_ = exec.Command(`explorer`, `/select,`, `Game.log`).Start()
+		_ = exec.Command("rundll32", "url.dll,FileProtocolHandler", "https://github.com/xkeyC/sc_eac_passer_light").Start()
 	}
 
 }
