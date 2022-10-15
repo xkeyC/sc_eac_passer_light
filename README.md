@@ -14,7 +14,7 @@ If you have any questions, feel free to contact me at xkeyC#5508@Discord.
 
 ## Uninstall
 1. Delete Bin64/dbghelp.dll
-2. delete data folder
+2. Delete data folder
 3. Delete StarCitizen_Launcher.exe
 4. RSI Launcher -> SETTINGS -> VERIFY
 
